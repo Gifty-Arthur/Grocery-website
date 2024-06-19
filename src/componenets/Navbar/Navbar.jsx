@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div className="">
       <div className="">
-        <div className="bg-gray-800 w-full h-[42px] ">
+        <div className="bg-gray-800 w-full h-[42px] sm:flex hidden">
           <div className="container">
             <div className="flex items-center justify-between">
               <div className="text-gray-300 flex flex-wrap gap-2">
