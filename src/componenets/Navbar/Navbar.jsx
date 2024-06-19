@@ -16,13 +16,15 @@ function Navbar() {
                 <p className="text-sm mt-2 ">Accra, East Legon Boundary Road</p>
               </div>
               {/* sign up */}
-              <div className="flex mt-2">
+              <div className="flex mt-2 ">
                 <Link>
-                  <p className="text-gray-300">Sign In /</p>
+                  <p className="text-gray-300 hover:text-primary ">Sign In /</p>
                 </Link>
                 {/* Sign In */}
                 <Link>
-                  <p className="text-gray-300 ml-1">Sign Up </p>
+                  <p className="text-gray-300 ml-1 hover:text-primary">
+                    Sign Up{" "}
+                  </p>
                 </Link>
               </div>
             </div>

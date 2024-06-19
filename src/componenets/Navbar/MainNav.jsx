@@ -6,6 +6,7 @@ import Group from "../../assets/Hero/Group.png";
 //icons
 import { IoIosHeartEmpty } from "react-icons/io";
 import { SlHandbag } from "react-icons/sl";
+import SubNav from "./SubNav";
 
 function MainNav() {
   return (
@@ -13,12 +14,14 @@ function MainNav() {
       <div className="container">
         <div className="flex justify-between items-center py-4">
           <Link>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 md:ml-0 sm:ml-0 ml-10">
               <img src={Group} alt="Group" />
               <h1 className="font-poppins text-4xl">FARMYARD</h1>
             </div>
           </Link>
-          <form className="max-w-md w-full mx-4">
+
+          {/* Hide search bar on mobile devices */}
+          <form className="max-w-md w-full mx-4 hidden md:block">
             <label
               htmlFor="default-search"
               className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
@@ -59,13 +62,18 @@ function MainNav() {
             </div>
           </form>
 
-          {/* icons */}
+          {/* Icons */}
           <Link>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 sm:flex hidden">
               <IoIosHeartEmpty size={27} className="" />
-              {/* handbag */}
+              {/* Handbag */}
               <div className="flex flex-wrap gap-2">
-                <SlHandbag size={27} className="text-2xl" />
+                <div className="relative">
+                  <SlHandbag size={27} className="text-2xl" />
+                  <div className="absolute top-0 right-0 bg-custom rounded-full h-[18px] w-[18px] flex items-center justify-center">
+                    <p className="text-white text-xs">2</p>
+                  </div>
+                </div>
               </div>
               <div className="flex flex-col mt-1">
                 <p className="text-[#4D4D4D] text-sm"> Shopping cart:</p>
@@ -76,6 +84,9 @@ function MainNav() {
             </div>
           </Link>
         </div>
+
+        {/* home */}
+        <SubNav />
       </div>
     </div>
   );
