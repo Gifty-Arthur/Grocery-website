@@ -11,7 +11,8 @@ export default {
         secendary:'#FF8A00',
         tertiary:'#84D187',
         danger:'#EA4B48',
-        custom: '##2C742F',
+        custom: '#2C742F',
+        custom1:"#1A1A1A"
       },
       fontFamily:{
         poppins: ['Poppins', 'sans-serif'],

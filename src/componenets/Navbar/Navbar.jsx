@@ -12,11 +12,11 @@ function Navbar() {
           <div className="container">
             <div className="flex items-center justify-between">
               <div className="text-gray-300 flex flex-wrap gap-2">
-                <CiLocationOn className="" />
-                <p className="text-sm ">Accra, East Legon Boundary Road</p>
+                <CiLocationOn className="mt-2" />
+                <p className="text-sm mt-2 ">Accra, East Legon Boundary Road</p>
               </div>
               {/* sign up */}
-              <div className="flex">
+              <div className="flex mt-2">
                 <Link>
                   <p className="text-gray-300">Sign In /</p>
                 </Link>
