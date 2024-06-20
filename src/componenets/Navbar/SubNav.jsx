@@ -1,13 +1,27 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
+
+//icons
 import { PiPhoneCallBold } from "react-icons/pi";
 import { BiChevronDown } from "react-icons/bi";
+import { AiOutlineClose, AiOutlineMenuFold } from "react-icons/ai";
 
 function SubNav() {
+  const [menu, setMenu] = useState(false);
+
+  const handleChange = () => {
+    setMenu(!menu);
+  };
+
+  const closeMenu = () => {
+    setMenu(false);
+  };
+
   return (
-    <div className="fixed w-full bg-white shadow-sm ">
+    <div className="fixed w-full bg-[#f2f2f2] shadow-sm ">
       <div className="max-w-7xl ">
         <div className="flex justify-between items-center py-4">
-          <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8">
+          <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8 ">
             <div className="relative group">
               <div className=" flex items-center gap-1">
                 <Link
@@ -239,8 +253,70 @@ function SubNav() {
               (219) 555-0114
             </p>
           </div>
+
+          {/* menu */}
+          <div className="md:hidden flex items-center">
+            {menu ? (
+              <AiOutlineClose size={25} onClick={handleChange} />
+            ) : (
+              <AiOutlineMenuFold size={25} onClick={handleChange} />
+            )}
+          </div>
         </div>
-        {/* menu */}
+
+        <div
+          className={` ${
+            menu ? "translate-x-0" : "-translate-x-full"
+          } lg:hidden flex flex-col absolute bg-black text-white left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-6 w-full h-fit transition-transform duration-300`}
+        >
+          <Link
+            to="dishes"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="hover:text-primary transition-all cursor-pointer"
+          >
+            Home
+          </Link>
+
+          <Link
+            to="dishes"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="hover:text-primary transition-all cursor-pointer"
+          >
+            Shop
+          </Link>
+          <Link
+            to="dishes"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="hover:text-primary transition-all cursor-pointer"
+          >
+            Blog
+          </Link>
+          <Link
+            to="dishes"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="hover:text-primary transition-all cursor-pointer"
+          >
+            About Us
+          </Link>
+
+          <Link
+            to="dishes"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className="hover:text-primary transition-all cursor-pointer"
+          >
+            Contact Us
+          </Link>
+        </div>
       </div>
     </div>
   );

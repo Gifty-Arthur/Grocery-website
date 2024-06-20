@@ -11,7 +11,7 @@ import SubNav from "./SubNav";
 function MainNav() {
   return (
     <div className="">
-      <div className="container">
+      <div className="">
         <div className="flex justify-between items-center py-4">
           <Link>
             <div className="flex items-center gap-2 md:ml-0 sm:ml-0 ml-10">
