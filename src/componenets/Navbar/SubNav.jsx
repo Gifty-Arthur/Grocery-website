@@ -19,8 +19,8 @@ function SubNav() {
 
   return (
     <div className="fixed w-full bg-[#f2f2f2] shadow-sm ">
-      <div className="max-w-7xl ">
-        <div className="flex justify-between items-center py-4">
+      <div className="max-w-8xl  ">
+        <div className="flex justify-between items-center py-4 container">
           <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8 ">
             <div className="relative group">
               <div className=" flex items-center gap-1">

@@ -9,7 +9,7 @@ function Navbar() {
     <div className="">
       <div className="">
         <div className="bg-gray-800 w-full h-[42px] sm:flex hidden">
-          <div className="">
+          <div className="container">
             <div className="flex items-center justify-between">
               <div className="text-gray-300 flex flex-wrap gap-2">
                 <CiLocationOn className="mt-2" />

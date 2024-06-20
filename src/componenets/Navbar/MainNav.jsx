@@ -12,7 +12,7 @@ function MainNav() {
   return (
     <div className="">
       <div className="">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-4 container">
           <Link>
             <div className="flex items-center gap-2 md:ml-0 sm:ml-0 ml-10">
               <img src={Group} alt="Group" />
