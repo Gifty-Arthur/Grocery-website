@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import Button from "../Layout/Button";
 
 //icons
 import { PiPhoneCallBold } from "react-icons/pi";
 import { BiChevronDown } from "react-icons/bi";
 import { AiOutlineClose, AiOutlineMenuFold } from "react-icons/ai";
+import { FaBars } from "react-icons/fa";
 
 function SubNav() {
   const [menu, setMenu] = useState(false);
@@ -13,15 +15,69 @@ function SubNav() {
     setMenu(!menu);
   };
 
-  const closeMenu = () => {
-    setMenu(false);
-  };
-
   return (
     <div className="fixed w-full bg-[#f2f2f2] shadow-sm ">
       <div className="max-w-8xl  ">
         <div className="flex justify-between items-center py-4 container">
           <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8 ">
+            {/* All categories */}
+            <div className="relative group">
+              <div className=" flex items-center gap-1 bg-primary w-[218px] h-[56px] justify-center">
+                <FaBars size={24} className="text-white" />
+                <Link
+                  to="dishes"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  className=" transition-all cursor-pointer text-white"
+                >
+                  All Categories
+                </Link>
+
+                <BiChevronDown
+                  className="cursor-pointer text-white"
+                  size={25}
+                />
+              </div>
+
+              <ul className="absolute hidden space-y-2 group-hover:block bg-white border border-gray-300 rounded-lg p-5">
+                <li>
+                  <Link
+                    to="dishes"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className="text-gray-800 hover:text-primary transition-all cursor-pointer"
+                  >
+                    Fresh Fruit
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="dishes"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className="text-gray-800 hover:text-primary transition-all cursor-pointer"
+                  >
+                    Vegetables
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="dishes"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    className="text-gray-800 hover:text-primary transition-all cursor-pointer"
+                  >
+                    Minerals
+                  </Link>
+                </li>
+                <li></li>
+              </ul>
+            </div>
+
             <div className="relative group">
               <div className=" flex items-center gap-1">
                 <Link
@@ -316,6 +372,17 @@ function SubNav() {
           >
             Contact Us
           </Link>
+
+          {/* mobile login and signUp */}
+          <div className="flex flex-row items-center justify-center gap-4">
+            <Link>
+              <Button title="Sign Up" />
+            </Link>
+
+            <Link>
+              <Button title="Login" />
+            </Link>
+          </div>
         </div>
       </div>
     </div>

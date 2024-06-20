@@ -64,7 +64,7 @@ function MainNav() {
 
           {/* Icons */}
           <Link>
-            <div className="flex items-center gap-4 sm:flex hidden">
+            <div className="items-center gap-4 sm:flex hidden">
               <IoIosHeartEmpty size={27} className="" />
               {/* Handbag */}
               <div className="flex flex-wrap gap-2">
