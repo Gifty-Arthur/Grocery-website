@@ -86,8 +86,8 @@ function MainNav() {
         </div>
 
         {/* home */}
-        <SubNav />
       </div>
+      <SubNav />
     </div>
   );
 }
