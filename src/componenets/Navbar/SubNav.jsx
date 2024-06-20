@@ -17,7 +17,7 @@ function SubNav() {
 
   return (
     <div className="fixed w-full bg-[#f2f2f2] shadow-sm ">
-      <div className="max-w-8xl  ">
+      <div className="  ">
         <div className="flex justify-between items-center py-4 container">
           <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8 ">
             {/* All categories */}
@@ -306,7 +306,7 @@ function SubNav() {
           <div className="flex flex-row items-center gap-2 md:ml-auto cursor-pointer hover:text-primary transition-all">
             <PiPhoneCallBold className="text-lg" />
             <p className="text-custom1 font-medium text-sm cursor-pointer hover:text-primary transition-all">
-              (219) 555-0114
+              (233) 24-837-73574
             </p>
           </div>
 

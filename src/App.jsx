@@ -1,13 +1,15 @@
 import { Route, Routes } from "react-router-dom";
-import NavFootLayout from "./componenets/Layout/NavFoot";
 
 import "./App.css";
+import Navbar from "./componenets/Navbar/Navbar";
+import Home from "./componenets/Home/Home";
 
 function App() {
   return (
     <div>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<NavFootLayout />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </div>
   );
