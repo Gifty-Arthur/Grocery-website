@@ -98,7 +98,7 @@ function SubNav() {
               <ul className="absolute hidden space-y-2 group-hover:block bg-white border border-gray-300 rounded-lg p-5">
                 <li>
                   <Link
-                    to="Product"
+                    to="/home"
                     spy={true}
                     smooth={true}
                     duration={500}

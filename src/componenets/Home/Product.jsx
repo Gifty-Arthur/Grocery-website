@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 //images
 import p1 from "../../assets/Product/p1.png";
 import p2 from "../../assets/Product/p2.png";
-import p3 from "../../assets/Product/p3.png";
 
 //images for featured products
 import fp2 from "../../assets/Product/fp2.png";
@@ -12,6 +11,7 @@ import fp4 from "../../assets/Product/fp4.png";
 
 //framer
 import { motion } from "framer-motion";
+import Categories from "./Categories";
 
 //icons
 import { CiDeliveryTruck } from "react-icons/ci";
@@ -253,7 +253,7 @@ const Product = () => {
           </div>
         </div>
       </div>
-      <img src={p3} alt="" />
+      <Categories />
     </div>
   );
 };
