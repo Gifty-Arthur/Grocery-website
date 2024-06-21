@@ -84,8 +84,6 @@ function MainNav() {
             </div>
           </Link>
         </div>
-
-        {/* home */}
       </div>
       <SubNav />
     </div>

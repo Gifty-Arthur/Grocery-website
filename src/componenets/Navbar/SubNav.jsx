@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Button from "../Layout/Button";
 
 //icons
 import { PiPhoneCallBold } from "react-icons/pi";
@@ -16,7 +15,7 @@ function SubNav() {
   };
 
   return (
-    <div className=" fixed left-0 w-full bg-[#f2f2f2] z-20 shadow-md">
+    <div className=" fixed left-0 top-25 w-full bg-[#f2f2f2] z-20 shadow-md">
       <div className="  ">
         <div className="flex justify-between items-center py-4 container">
           <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8 ">
@@ -376,11 +375,15 @@ function SubNav() {
           {/* mobile login and signUp */}
           <div className="flex flex-row items-center justify-center gap-4">
             <Link>
-              <Button title="Sign Up" />
+              <button className="w-[80px] h-[30px] mt-2 text-center  text-sm rounded-md bg-primary  text-white hover:bg-tertiary">
+                Login
+              </button>
             </Link>
 
             <Link>
-              <Button title="Login" />
+              <button className="w-[80px] h-[30px] mt-2 text-center  text-sm rounded-md bg-primary  text-white hover:bg-tertiary">
+                Sign Up
+              </button>
             </Link>
           </div>
         </div>
