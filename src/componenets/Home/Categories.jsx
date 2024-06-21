@@ -46,7 +46,7 @@ function Categories() {
         <div className="mt-10">
           <div className="md:flex md:flex-row md:gap-6">
             {/* 1st */}
-            <div className="flex flex-row gap-4">
+            <div className="flex flex-row gap-4 md:mt-4">
               <motion.div
                 className="bg-white w-[200px] h-[210px] rounded-md "
                 whileHover={{
