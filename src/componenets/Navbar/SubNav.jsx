@@ -15,7 +15,7 @@ function SubNav() {
   };
 
   return (
-    <div className=" fixed left-0 top-25 w-full bg-[#f2f2f2] z-20 shadow-md">
+    <div className=" sticky left-0 to-20  w-full bg-[#f2f2f2] z-20 shadow-md">
       <div className="  ">
         <div className="flex justify-between items-center py-4 container">
           <nav className="hidden md:flex flex-row items-center text-lg font-medium gap-8 ">
@@ -98,7 +98,7 @@ function SubNav() {
               <ul className="absolute hidden space-y-2 group-hover:block bg-white border border-gray-300 rounded-lg p-5">
                 <li>
                   <Link
-                    to="dishes"
+                    to="Product"
                     spy={true}
                     smooth={true}
                     duration={500}

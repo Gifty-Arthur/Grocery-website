@@ -14,7 +14,8 @@ export default {
         custom: '#2C742F',
         custom1:"#1A1A1A",
         custom2: "#5acd5e",
-        custom3: "#808080"
+        custom3: "#808080",
+        custom4: "#f2f2f2"
       },
       fontFamily:{
         poppins: ['Poppins', 'sans-serif'],
