@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Button from "../Layout/Button";
 
 // Images
 
@@ -10,6 +9,7 @@ import sbcat2 from "../../assets/categories/sbcat2.png";
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import { IoArrowForward } from "react-icons/io5";
 import Numbers from "./Numbers";
+import Button from "../Layout/Button";
 
 function SubCategories() {
   return (

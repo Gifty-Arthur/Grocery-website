@@ -293,7 +293,7 @@ function SubNumbers() {
                     boxShadow: "0px 0px 8px #00b207",
                   }}
                 >
-                  <img src={s2} alt="" />
+                  <img src={fp4} alt="" />
                   <div className="flex items-center justify-between mt-4">
                     <div className="flex flex-col ml-4 ">
                       <p className="text-[#4d4d4d] hover:text-primary ">
@@ -308,7 +308,7 @@ function SubNumbers() {
                         <IoMdStarOutline className="text-[#cccccc]" />
                       </div>
                     </div>
-                    <div className="rounded-full bg-custom4 w-[40px] h-[40px] mr-6 flex items-center justify-center">
+                    <div className="rounded-full bg-primary text-white w-[40px] h-[40px] mr-6 flex items-center justify-center">
                       <HiOutlineShoppingBag size={20} />
                     </div>
                   </div>

@@ -1,15 +1,17 @@
+/* eslint-disable react/jsx-no-undef */
 import { motion } from "framer-motion";
-
+import { Link } from "react-router-dom";
 //icons
 
 import { IoMdStar, IoMdStarOutline } from "react-icons/io";
-import { HiOutlineShoppingBag } from "react-icons/hi";
-import { CiHeart } from "react-icons/ci";
-import { FiEye } from "react-icons/fi";
+import { IoArrowForward } from "react-icons/io5";
+// import { HiOutlineShoppingBag } from "react-icons/hi";
+// import { CiHeart } from "react-icons/ci";
+// import { FiEye } from "react-icons/fi";
 
 //images
 import s1 from "../../assets/Seller/s1.png";
-import s2 from "../../assets/Seller/s2.png";
+
 import s3 from "../../assets/Seller/s3.png";
 import s4 from "../../assets/Seller/s4.png";
 import s5 from "../../assets/Seller/s5.png";
@@ -19,6 +21,7 @@ import s8 from "../../assets/Seller/s8.png";
 import s9 from "../../assets/Seller/s9.png";
 import s10 from "../../assets/Seller/s10.png";
 import s11 from "../../assets/Seller/s11.png";
+import Button from "../Layout/Button";
 function HotDeals() {
   return (
     <div className="mt-10">
@@ -191,7 +194,7 @@ function HotDeals() {
               </div>
 
               {/* top rated */}
-              <div className="flex flex-row gap-2">
+              <div className="flex flex-row gap-6">
                 <div className="flex flex-col gap-2">
                   <motion.div
                     className="w-[312px] h-[116px] border-2"
@@ -265,8 +268,28 @@ function HotDeals() {
                     </div>
                   </motion.div>
                 </div>
-
-                <img src={s11} alt="" />
+                {/* image */}
+                <div className="relative w-full">
+                  <img src={s11} alt="" className="w-full" />
+                  <div className=" absolute top-0 left-0 right-0  ">
+                    <div className=" flex flex-col items-center justify-center mt-8 ">
+                      <p className="text-custom1 font-bold  text-sm font-poppins">
+                        Hot Sale
+                      </p>
+                      <h1 className="text-4xl font-semibold font-poppins mt-2">
+                        Save 37% <span className="font-light">on</span>
+                      </h1>
+                      <h1 className="text-4xl font poppins ">Every Order</h1>
+                      <Link>
+                        <Button
+                          title="Shop Now"
+                          Icon={IoArrowForward}
+                          className="bg-white w-[162px] h-[45px] rounded-full text-primary mt-2"
+                        />
+                      </Link>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
