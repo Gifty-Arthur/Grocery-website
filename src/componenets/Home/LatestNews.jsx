@@ -12,7 +12,7 @@ import Testimonials from "./Testimonials";
 function LatestNews() {
   return (
     <div>
-      <div className="bg-[#ebebeb] w-full h-full">
+      <div className="bg-[#f9fbfa] w-full h-full">
         <div className="container mt-10s">
           <div className="flex flex-col items-center justify-center ">
             <p className="text-primary text-lg mt-2">Blog</p>
@@ -20,7 +20,7 @@ function LatestNews() {
           </div>
           <div className="md:mt-10s sm:mt-20 lg:mt-20 mt-10">
             <div className="flex flex-col md:flex-row md:flex-wrap gap-6 justify-center">
-              <div className="w-full md:w-[424px] h-[494px] rounded-md bg-white">
+              <div className="w-full md:w-[424px] h-[494px] rounded-md bg-gray-100 ">
                 <div className="relative w-full">
                   <img className="w-full md:w-[424px]" src={n1} alt="" />
                   <div className="absolute bottom-6 left-0 ml-4">
@@ -81,7 +81,7 @@ function LatestNews() {
                   </button>
                 </div>
               </div>
-              <div className="w-full md:w-[424px] h-[494px] rounded-md bg-white">
+              <div className="w-full md:w-[424px] h-[494px] rounded-md bg-gray-100 ">
                 <div className="relative w-full">
                   <img className="w-full md:w-[424px]" src={n2} alt="" />
                   <div className="absolute bottom-6 left-0 ml-4">
@@ -140,7 +140,7 @@ function LatestNews() {
                   </button>
                 </div>
               </div>
-              <div className="w-full md:w-[424px] h-[494px] rounded-md bg-white">
+              <div className="w-full md:w-[424px] h-[494px] rounded-md bg-gray-100 ">
                 <img className="w-full md:w-[424px]" src={n3} alt="" />
                 <div className="flex flex-col ml-4">
                   <div className="flex flex-row gap-4 mt-4">
