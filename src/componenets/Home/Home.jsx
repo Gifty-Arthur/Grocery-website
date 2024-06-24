@@ -76,7 +76,11 @@ function Home() {
                   </h1>
                   <p className="text-sm text-custom3 mt-2">{staticText.sub}</p>
                   <Link>
-                    <Button title="Shop now" Icon={IoArrowForward} />
+                    <Button
+                      title="Shop now"
+                      Icon={IoArrowForward}
+                      className="bg-primary w-[191px] h-[51px] rounded-full mt-4 text-white"
+                    />
                   </Link>
                 </div>
               </div>
@@ -123,7 +127,11 @@ function Home() {
                     </span>
                   </h2>
                   <Link>
-                    <Button title="Shop now" Icon={IoArrowForward} />
+                    <Button
+                      title="Shop now"
+                      Icon={IoArrowForward}
+                      className="bg-primary w-[191px] h-[51px] rounded-full mt-4 text-white"
+                    />
                   </Link>
                 </div>
               </div>
@@ -153,7 +161,11 @@ function Home() {
                   </h1>
                   <p className="text-sm text-custom3 mt-2">{staticText.sub}</p>
                   <Link>
-                    <Button title="Shop now" Icon={IoArrowForward} />
+                    <Button
+                      title="Shop now"
+                      Icon={IoArrowForward}
+                      className="bg-primary w-[191px] h-[51px] rounded-full mt-4 text-white"
+                    />
                   </Link>
                 </div>
               </div>

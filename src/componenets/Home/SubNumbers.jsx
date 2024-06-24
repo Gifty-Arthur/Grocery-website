@@ -220,6 +220,7 @@ function SubNumbers() {
                       <div className="rounded-full bg-custom4 w-[40px] h-[40px] mr-6 flex items-center justify-center">
                         <HiOutlineShoppingBag size={20} />
                       </div>
+                      <div className="w-[40px] h-[40px] border-2 rounded-full"></div>
                     </div>
                   </motion.div>
                 </div>
@@ -293,12 +294,10 @@ function SubNumbers() {
                     boxShadow: "0px 0px 8px #00b207",
                   }}
                 >
-                  <img src={fp4} alt="" />
+                  <img src={s2} alt="" />
                   <div className="flex items-center justify-between mt-4">
                     <div className="flex flex-col ml-4 ">
-                      <p className="text-[#4d4d4d] hover:text-primary ">
-                        Ladies Finger
-                      </p>
+                      <p className="text-[#4d4d4d] hover:text-primary ">Corn</p>
                       <p className="text-md font-medium">$14.99 </p>
                       <div className="flex text-secondary">
                         <IoMdStar />
@@ -316,11 +315,11 @@ function SubNumbers() {
               </div>
             </div>
           </div>
-
-          {/* Hot deals */}
-          <HotDeals />
         </div>
       </div>
+
+      {/* Hot deals */}
+      <HotDeals />
     </div>
   );
 }
