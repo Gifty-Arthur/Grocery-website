@@ -95,6 +95,7 @@ function Numbers({ counterOn, setCounterOn }) {
             </div>
           </div>
         </div>
+
         {/* mobile */}
         <div className="flex sm:hidden bg-[#001109] mt-10">
           <div className="container mt-10">

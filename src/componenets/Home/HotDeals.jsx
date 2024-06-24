@@ -305,9 +305,9 @@ function HotDeals() {
             </div>
           </div>
         </div>
+        {/* News */}
+        <LatestNews />
       </div>
-      {/* News */}
-      <LatestNews />
     </div>
   );
 }
