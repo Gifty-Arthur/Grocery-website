@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 import fbg from "./../assets/steps/fbg.png";
 import Group from "./../assets/Hero/Group.png";
+import pm from "./../assets/steps/pm.png";
 
 //icons
 import {
@@ -162,6 +163,12 @@ function Footer() {
               </div>
             </div>
           </div>
+        </div>
+        <div className=" mt-14 flex flex-row items-center justify-between">
+          <p className="text-[#808080] text-sm font-poppins">
+            Farmyard eCommerce © 2021. All Rights Reserved
+          </p>
+          <img src={pm} alt="" />
         </div>
       </div>
     </div>
