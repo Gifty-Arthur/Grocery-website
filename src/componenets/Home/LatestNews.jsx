@@ -187,9 +187,9 @@ function LatestNews() {
               </div>
             </div>
           </div>
-          {/*  testimonials*/}
         </div>
       </div>
+
       <Testimonials />
     </div>
   );
