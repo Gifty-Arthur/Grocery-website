@@ -13,7 +13,7 @@ function LatestNews() {
   return (
     <div>
       <div className="bg-[#f9fbfa] w-full h-full">
-        <div className="container mt-10s">
+        <div className="container mt-10">
           <div className="flex flex-col items-center justify-center ">
             <p className="text-primary text-lg mt-2">Blog</p>
             <h1 className="text-4xl font-semibold font-poppins">Latest News</h1>
