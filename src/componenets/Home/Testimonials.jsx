@@ -1,8 +1,12 @@
 import t1 from "../../assets/News/t1.png";
 import t2 from "../../assets/News/t2.png";
 import t3 from "../../assets/News/t3.png";
-import step1 from "../../assets/steps/step1.png";
-
+import step2 from "../../assets/steps/step2.png";
+import step3 from "../../assets/steps/step3.png";
+import step4 from "../../assets/steps/step4.png";
+import step5 from "../../assets/steps/step5.png";
+import step6 from "../../assets/steps/step6.png";
+import step7 from "../../assets/steps/step7.png";
 //icons
 import { RiDoubleQuotesR } from "react-icons/ri";
 import { IoMdStar } from "react-icons/io";
@@ -119,11 +123,22 @@ function Testimonials() {
       </div>
 
       {/* seps */}
-      <div className="container">
-        <img src={step1} alt="" />
+      <div className="container mt-20">
+        <div className="">
+          <div className="grid grid-cols-2 gap-4 md:flex md:flex-row md:space-x-32">
+            <img src={step2} alt="" />
+            <img src={step3} alt="" />
+            <img src={step4} alt="" />
+            <img src={step5} alt="" />
+            <img src={step6} alt="" />
+            <img src={step7} alt="" />
+          </div>
+        </div>
+
         <div>
+          {/* location */}
           <div className="mt-20">
-            <div className="md:flex flex-row gap-4">
+            <div className="md:flex md:flex-row gap-6  flex flex-col ">
               <div className="w-full md:w-[312px] h-[184px] border-2 rounded-md">
                 <div className="flex flex-col mt-6 ml-4">
                   <div className="relative ">
@@ -173,43 +188,28 @@ function Testimonials() {
                     Subscribe Newsletter
                   </p>
                   {/* search */}
-                  <form className="max-w-md w-full mx-4 hidden md:block">
+                  <form className="max-w-md w-full mr-4 mt-2">
                     <label
                       htmlFor="default-search"
-                      className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+                      className="text-sm font-medium text-gray-900 sr-only dark:text-white"
                     >
-                      Search
+                      Subscribe
                     </label>
                     <div className="relative flex items-center">
-                      <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                        <svg
-                          className="w-4 h-4 text-gray-500 dark:text-black"
-                          aria-hidden="true"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 20 20"
-                        >
-                          <path
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-                          />
-                        </svg>
-                      </div>
+                      <div className="absolute inset-y-0 left-0 flex items-center pl-4 mt-1 pointer-events-none"></div>
                       <input
                         type="search"
                         id="default-search"
                         className="block w-full pl-10 pr-[110px] h-[45px] text-md text-black border rounded-full bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        placeholder="Search"
+                        placeholder="Subscribe"
                         required
                       />
                       <button
                         type="submit"
-                        className="absolute right-0 bg-primary w-[98px] h-[45px] rounded-full font-semibold text-white"
+                        className="absolute right-0 bg-primary w-[98px] h-[45px] rounded-full font-semibold text-white hover:
+                        "
                       >
-                        Search
+                        Subscribe
                       </button>
                     </div>
                   </form>
