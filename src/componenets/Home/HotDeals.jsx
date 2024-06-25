@@ -306,7 +306,9 @@ function HotDeals() {
           </div>
         </div>
         {/* News */}
-        <LatestNews />
+        <section id="LatestNews">
+          <LatestNews />
+        </section>
       </div>
     </div>
   );

@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 
 //icons
 import { PiPhoneCallBold } from "react-icons/pi";
@@ -78,67 +80,62 @@ function SubNav() {
             </div>
 
             <div className="relative group">
-              <div className=" flex items-center gap-1">
-                <Link
-                  to="dishes"
-                  spy={true}
-                  smooth={true}
-                  duration={500}
+              <div className="flex items-center gap-1">
+                <RouterLink
+                  to="/"
                   className="hover:text-primary transition-all cursor-pointer"
                 >
                   Home
-                </Link>
-
+                </RouterLink>
                 <BiChevronDown
                   className="cursor-pointer text-primary"
                   size={25}
                 />
               </div>
-
               <ul className="absolute hidden space-y-2 group-hover:block bg-white border border-gray-300 rounded-lg p-5">
                 <li>
-                  <Link
-                    to="/home"
+                  <ScrollLink
+                    to="Product"
                     spy={true}
                     smooth={true}
                     duration={500}
                     className="text-gray-800 hover:text-primary transition-all cursor-pointer"
                   >
                     Product
-                  </Link>
+                  </ScrollLink>
                 </li>
                 <li>
-                  <Link
-                    to="dishes"
+                  <ScrollLink
+                    to="Categories"
                     spy={true}
                     smooth={true}
                     duration={500}
                     className="text-gray-800 hover:text-primary transition-all cursor-pointer"
                   >
                     Categories
-                  </Link>
+                  </ScrollLink>
                 </li>
                 <li>
-                  <Link
-                    to="dishes"
+                  <ScrollLink
+                    to="SubNumbers"
                     spy={true}
                     smooth={true}
                     duration={500}
                     className="text-gray-800 hover:text-primary transition-all cursor-pointer"
                   >
                     Sellers
-                  </Link>
+                  </ScrollLink>
                 </li>
                 <li>
-                  <Link
-                    to="dishes"
+                  <ScrollLink
+                    to="LatestNews"
                     spy={true}
                     smooth={true}
                     duration={500}
                     className="text-gray-800 hover:text-primary transition-all cursor-pointer"
                   >
-                    Latest
-                  </Link>
+                    News
+                  </ScrollLink>
                 </li>
               </ul>
             </div>
