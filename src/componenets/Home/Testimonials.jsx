@@ -193,7 +193,7 @@ function Testimonials() {
                       htmlFor="default-search"
                       className="text-sm font-medium text-gray-900 sr-only dark:text-white"
                     >
-                      Subscribe
+                      your email
                     </label>
                     <div className="relative flex items-center">
                       <div className="absolute inset-y-0 left-0 flex items-center pl-4 mt-1 pointer-events-none"></div>

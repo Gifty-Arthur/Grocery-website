@@ -116,141 +116,142 @@ const Product = () => {
           </div>
 
           {/* images for featured product*/}
-          <div className="mt-10">
-            <div>
-              <div className="md:flex md:flex-row md:gap-8">
-                {/* apple */}
-                <div className="flex flex-row  gap-4">
-                  <motion.div
-                    className="md:w-[312px] md:h-[407px] border-2 shadow-md rounded-lg w-1/2"
-                    whileHover={{
-                      scale: 1.1,
-                      textShadow: "primary",
-                      boxShadow: "0px 0px 8px #00b207",
-                    }}
-                  >
-                    <div className="w-[80px] h-[27px] bg-danger mt-2 ml-4 rounded-md">
-                      <p className="text-white text-center  font-medium">
-                        Sale 50%
-                      </p>
-                    </div>
-                    <img src={fp2} alt="" />
-                    <div className="flex items-center justify-between -mt-4">
-                      <div className="flex flex-col ml-4 ">
-                        <p className="text-[#4d4d4d]">Green Apple</p>
-                        <p className="text-md font-medium">
-                          $14.99{" "}
-                          <span className="line-through text-[#999999]">
-                            $20.99
-                          </span>
+          <section id="Product">
+            <div className="mt-10">
+              <div>
+                <div className="md:flex md:flex-row md:gap-8">
+                  {/* apple */}
+                  <div className="flex flex-row  gap-4">
+                    <motion.div
+                      className="md:w-[312px] md:h-[407px] border-2 shadow-md rounded-lg w-1/2"
+                      whileHover={{
+                        scale: 1.1,
+                        textShadow: "primary",
+                        boxShadow: "0px 0px 8px #00b207",
+                      }}
+                    >
+                      <div className="w-[80px] h-[27px] bg-danger mt-2 ml-4 rounded-md">
+                        <p className="text-white text-center  font-medium">
+                          Sale 50%
                         </p>
-                        <div className="flex text-secondary">
-                          <IoMdStar />
-                          <IoMdStar />
-                          <IoMdStar />
-                          <IoMdStar />
-                          <IoMdStarOutline className="text-[#cccccc]" />
+                      </div>
+                      <img src={fp2} alt="" />
+                      <div className="flex items-center justify-between -mt-4">
+                        <div className="flex flex-col ml-4 ">
+                          <p className="text-[#4d4d4d]">Green Apple</p>
+                          <p className="text-md font-medium">
+                            $14.99{" "}
+                            <span className="line-through text-[#999999]">
+                              $20.99
+                            </span>
+                          </p>
+                          <div className="flex text-secondary">
+                            <IoMdStar />
+                            <IoMdStar />
+                            <IoMdStar />
+                            <IoMdStar />
+                            <IoMdStarOutline className="text-[#cccccc]" />
+                          </div>
+                        </div>
+                        <div className="rounded-full bg-custom4 w-[40px] h-[40px] mr-6 flex items-center justify-center">
+                          <HiOutlineShoppingBag size={20} />
                         </div>
                       </div>
-                      <div className="rounded-full bg-custom4 w-[40px] h-[40px] mr-6 flex items-center justify-center">
-                        <HiOutlineShoppingBag size={20} />
-                      </div>
-                    </div>
-                  </motion.div>
-                  {/* cabage */}
-                  <motion.div
-                    className="md:w-[312px] md:h-[407px] border-2 shadow-md rounded-lg w-1/2"
-                    whileHover={{
-                      scale: 1.1,
-                      textShadow: "primary",
-                      boxShadow: "0px 0px 8px #00b207",
-                    }}
-                  >
-                    <img src={fp1} alt="" />
-                    <div className="flex items-center justify-between mt-4">
-                      <div className="flex flex-col ml-4 ">
-                        <p className="text-[#4d4d4d] hover:text-primary ">
-                          Chanise Cabbage
-                        </p>
-                        <p className="text-md font-medium">$14.99 </p>
-                        <div className="flex text-secondary">
-                          <IoMdStar />
-                          <IoMdStar />
-                          <IoMdStar />
-                          <IoMdStar />
-                          <IoMdStarOutline className="text-[#cccccc]" />
+                    </motion.div>
+                    {/* cabage */}
+                    <motion.div
+                      className="md:w-[312px] md:h-[407px] border-2 shadow-md rounded-lg w-1/2"
+                      whileHover={{
+                        scale: 1.1,
+                        textShadow: "primary",
+                        boxShadow: "0px 0px 8px #00b207",
+                      }}
+                    >
+                      <img src={fp1} alt="" />
+                      <div className="flex items-center justify-between mt-4">
+                        <div className="flex flex-col ml-4 ">
+                          <p className="text-[#4d4d4d] hover:text-primary ">
+                            Chanise Cabbage
+                          </p>
+                          <p className="text-md font-medium">$14.99 </p>
+                          <div className="flex text-secondary">
+                            <IoMdStar />
+                            <IoMdStar />
+                            <IoMdStar />
+                            <IoMdStar />
+                            <IoMdStarOutline className="text-[#cccccc]" />
+                          </div>
+                        </div>
+                        <div className="rounded-full bg-custom4 w-[40px] h-[40px] mr-6 flex items-center justify-center">
+                          <HiOutlineShoppingBag size={20} />
                         </div>
                       </div>
-                      <div className="rounded-full bg-custom4 w-[40px] h-[40px] mr-6 flex items-center justify-center">
-                        <HiOutlineShoppingBag size={20} />
-                      </div>
-                    </div>
-                  </motion.div>
-                </div>
-
-                {/* Green Paper*/}
-                <div className="flex flex-row gap-4 mt-4">
-                  <motion.div
-                    className="md:w-[312px] md:h-[407px] border-2 shadow-md rounded-lg w-1/2"
-                    whileHover={{
-                      scale: 1.1,
-                      textShadow: "primary",
-                      boxShadow: "0px 0px 8px #00b207",
-                    }}
-                  >
-                    <img src={fp3} alt="" />
-                    <div className="flex items-center justify-between mt-4">
-                      <div className="flex flex-col ml-4 ">
-                        <p className="text-[#4d4d4d] hover:text-primary ">
-                          Green Capsicum
-                        </p>
-                        <p className="text-md font-medium">$14.99 </p>
-                        <div className="flex text-secondary">
-                          <IoMdStar />
-                          <IoMdStar />
-                          <IoMdStar />
-                          <IoMdStar />
-                          <IoMdStarOutline className="text-[#cccccc]" />
+                    </motion.div>
+                  </div>
+                  {/* Green Paper*/}
+                  <div className="flex flex-row gap-4 mt-4">
+                    <motion.div
+                      className="md:w-[312px] md:h-[407px] border-2 shadow-md rounded-lg w-1/2"
+                      whileHover={{
+                        scale: 1.1,
+                        textShadow: "primary",
+                        boxShadow: "0px 0px 8px #00b207",
+                      }}
+                    >
+                      <img src={fp3} alt="" />
+                      <div className="flex items-center justify-between mt-4">
+                        <div className="flex flex-col ml-4 ">
+                          <p className="text-[#4d4d4d] hover:text-primary ">
+                            Green Capsicum
+                          </p>
+                          <p className="text-md font-medium">$14.99 </p>
+                          <div className="flex text-secondary">
+                            <IoMdStar />
+                            <IoMdStar />
+                            <IoMdStar />
+                            <IoMdStar />
+                            <IoMdStarOutline className="text-[#cccccc]" />
+                          </div>
+                        </div>
+                        <div className="rounded-full bg-custom4 w-[40px] h-[40px] mr-6 flex items-center justify-center">
+                          <HiOutlineShoppingBag size={20} />
                         </div>
                       </div>
-                      <div className="rounded-full bg-custom4 w-[40px] h-[40px] mr-6 flex items-center justify-center">
-                        <HiOutlineShoppingBag size={20} />
-                      </div>
-                    </div>
-                  </motion.div>
-                  {/* okro */}
-                  <motion.div
-                    className="md:w-[312px] md:h-[407px] border-2 shadow-md rounded-lg w-1/2"
-                    whileHover={{
-                      scale: 1.1,
-                      textShadow: "primary",
-                      boxShadow: "0px 0px 8px #00b207",
-                    }}
-                  >
-                    <img src={fp4} alt="" />
-                    <div className="flex items-center justify-between mt-4">
-                      <div className="flex flex-col ml-4 ">
-                        <p className="text-[#4d4d4d] hover:text-primary ">
-                          Ladies Finger
-                        </p>
-                        <p className="text-md font-medium">$14.99 </p>
-                        <div className="flex text-secondary">
-                          <IoMdStar />
-                          <IoMdStar />
-                          <IoMdStar />
-                          <IoMdStar />
-                          <IoMdStarOutline className="text-[#cccccc]" />
+                    </motion.div>
+                    {/* okro */}
+                    <motion.div
+                      className="md:w-[312px] md:h-[407px] border-2 shadow-md rounded-lg w-1/2"
+                      whileHover={{
+                        scale: 1.1,
+                        textShadow: "primary",
+                        boxShadow: "0px 0px 8px #00b207",
+                      }}
+                    >
+                      <img src={fp4} alt="" />
+                      <div className="flex items-center justify-between mt-4">
+                        <div className="flex flex-col ml-4 ">
+                          <p className="text-[#4d4d4d] hover:text-primary ">
+                            Ladies Finger
+                          </p>
+                          <p className="text-md font-medium">$14.99 </p>
+                          <div className="flex text-secondary">
+                            <IoMdStar />
+                            <IoMdStar />
+                            <IoMdStar />
+                            <IoMdStar />
+                            <IoMdStarOutline className="text-[#cccccc]" />
+                          </div>
+                        </div>
+                        <div className="rounded-full bg-custom4 w-[40px] h-[40px] mr-6 flex items-center justify-center">
+                          <HiOutlineShoppingBag size={20} />
                         </div>
                       </div>
-                      <div className="rounded-full bg-custom4 w-[40px] h-[40px] mr-6 flex items-center justify-center">
-                        <HiOutlineShoppingBag size={20} />
-                      </div>
-                    </div>
-                  </motion.div>
+                    </motion.div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          </section>
         </div>
       </div>
       <Categories />

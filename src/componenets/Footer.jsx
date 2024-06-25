@@ -23,7 +23,7 @@ function Footer() {
         alt=""
       />
       <div className="container md:pt-[8rem] mt-10 h-full relative z-10">
-        <div className="flex flex-row space-x-32 ">
+        <div className="flex flex-row space-x-24 ">
           <div className="flex flex-col gap-6 ">
             <Link>
               <div className="flex items-center gap-2 md:ml-0 sm:ml-0 ml-10">
@@ -36,7 +36,8 @@ function Footer() {
             <p className="text-sm font-poppins text-[#999999]  ">
               Morbi cursus porttitor enim lobortis <br />
               molestie. Duis gravida turpis dui
-              <br />, eget bibendum magn.
+              <br />
+              eget bibendum magn.
             </p>
             {/* socila media */}
             <div className="flex flex-row gap-6 ">
@@ -126,7 +127,7 @@ function Footer() {
           </div>
 
           {/* Download Mobile App */}
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 ">
             <h1
               className="font-medium text-[18px] text-white font-poppins underline"
               style={{
