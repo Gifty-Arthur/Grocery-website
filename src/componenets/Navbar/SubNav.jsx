@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
+import { urls } from "../Helpers/routes";
 
 //icons
 import { PiPhoneCallBold } from "react-icons/pi";
@@ -82,7 +83,7 @@ function SubNav() {
             <div className="relative group">
               <div className="flex items-center gap-1">
                 <RouterLink
-                  to="/"
+                  to={urls.home}
                   className="hover:text-primary transition-all cursor-pointer"
                 >
                   Home
@@ -322,7 +323,7 @@ function SubNav() {
           } lg:hidden flex flex-col absolute bg-black text-white left-0 top-20 font-semibold text-2xl text-center pt-8 pb-4 gap-6 w-full h-fit transition-transform duration-300`}
         >
           <Link
-            to="dishes"
+            to={urls.home}
             spy={true}
             smooth={true}
             duration={500}
@@ -371,7 +372,7 @@ function SubNav() {
 
           {/* mobile login and signUp */}
           <div className="flex flex-row items-center justify-center gap-4">
-            <Link>
+            <Link to={urls.signIn}>
               <button className="w-[80px] h-[30px] mt-2 text-center  text-sm rounded-md bg-primary  text-white hover:bg-tertiary">
                 Login
               </button>

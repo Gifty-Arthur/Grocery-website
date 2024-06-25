@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import { urls } from "../Helpers/routes";
 //icons
 import { CiLocationOn } from "react-icons/ci";
 import MainNav from "./MainNav";
@@ -17,7 +17,7 @@ function Navbar() {
               </div>
               {/* sign up */}
               <div className="flex mt-2 ">
-                <Link>
+                <Link to={urls.signIn}>
                   <p className="text-gray-300 hover:text-primary ">Sign In /</p>
                 </Link>
                 {/* Sign In */}

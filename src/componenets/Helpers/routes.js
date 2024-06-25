@@ -1,3 +1,6 @@
-// export const urls ={
-//     home:"/",
-// }
+export const urls = {
+    signIn: "/signIn",
+    home: "/"
+
+
+}

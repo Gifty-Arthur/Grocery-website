@@ -4,6 +4,8 @@ import "./App.css";
 // import Navbar from "./componenets/Navbar/Navbar";
 import Home from "./componenets/Home/Home";
 import NavFoot from "./componenets/Layout/NavFoot";
+import { urls } from "./componenets/Helpers/routes";
+import SignIn from "./componenets/Home/SignIn";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<NavFoot />}>
             <Route path="/" element={<Home />} />
+
+            <Route path={urls.signIn} element={<SignIn />} />
           </Route>
         </Routes>
       </div>
