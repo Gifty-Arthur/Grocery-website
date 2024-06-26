@@ -21,7 +21,7 @@ function Navbar() {
                   <p className="text-gray-300 hover:text-primary ">Sign In /</p>
                 </Link>
                 {/* Sign In */}
-                <Link>
+                <Link to={urls.signUp}>
                   <p className="text-gray-300 ml-1 hover:text-primary">
                     Sign Up{" "}
                   </p>

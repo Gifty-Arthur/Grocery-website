@@ -30,8 +30,8 @@ function SignIn() {
                 <IoIosArrowForward className="mt-1" />
               </div>
             </Link>
-            <Link to={urls.signIn}>
-              <p className="text-md hover:text-primary">Login</p>
+            <Link to={urls.signUp}>
+              <p className="text-md hover:text-primary">Create Account</p>
             </Link>
           </div>
         </div>
@@ -40,16 +40,16 @@ function SignIn() {
       <div className="container mt-20 px-4 md:px-0">
         <div className="flex items-center justify-center">
           <div>
-            <div className="w-full md:w-[520px] h-auto md:h-[371px] shadow-2xl border bg-white rounded-md p-4 md:p-8">
+            <div className="w-full md:w-[520px] h-auto md:h-[432px] shadow-2xl border bg-white rounded-md p-4 md:p-8">
               <h2 className="text-2xl md:text-4xl font-bold font-poppins dark:text-custom1 text-center">
-                Sign in
+                Create Account
               </h2>
               <form className="mt-8 space-y-4" action="#">
                 <div className="flex items-center justify-center flex-col gap-4">
                   <div className="w-full md:w-[427px]">
                     <label
                       htmlFor="email"
-                      className="block mb-2 text-sm font-medium"
+                      className="block  text-sm font-medium"
                     ></label>
                     <input
                       type="email"
@@ -63,7 +63,7 @@ function SignIn() {
                   <div className="flex flex-col w-full md:w-[427px]">
                     <label
                       htmlFor="password"
-                      className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                      className="block  text-sm font-medium text-gray-900 dark:text-white "
                     ></label>
                     <input
                       type="password"
@@ -71,6 +71,18 @@ function SignIn() {
                       id="password"
                       placeholder="Password"
                       className="border text-sm rounded-md block w-full p-2.5 dark:bg-white"
+                      required
+                    />
+                    <label
+                      htmlFor="password"
+                      className="block  text-sm font-medium text-gray-900 dark:text-white"
+                    ></label>
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      placeholder="Confirm Password"
+                      className="border text-sm rounded-md block w-full p-2.5 dark:bg-white mt-4"
                       required
                     />
                     <div className="flex flex-col md:flex-row items-center justify-between mt-2">
@@ -86,28 +98,24 @@ function SignIn() {
                           htmlFor="remember"
                           className="ml-2 text-sm font-medium text-gray-500 dark:text-gray-400"
                         >
-                          Remember this device
+                          Accept all terms & Conditions
                         </label>
                       </div>
-                      <a
-                        href="#"
-                        className="mt-2 md:mt-0 text-sm font-medium text-blue-600 hover:underline dark:text-blue-500"
-                      >
-                        Lost Password?
-                      </a>
                     </div>
                   </div>
-                  <button
-                    type="submit"
-                    className="w-full md:w-[427px] h-[40px] mt-2 text-base font-medium text-center text-white bg-primary rounded-full hover:bg-tertiary"
-                  >
-                    Login
-                  </button>
+                  <Link to={urls.signIn}>
+                    <button
+                      type="submit"
+                      className="w-[200px] md:w-[427px] h-[40px] mt-2  font-medium text-sm text-center text-white bg-primary rounded-full hover:bg-tertiary"
+                    >
+                      Create Account
+                    </button>
+                  </Link>
                   <div className="text-sm font-medium text-gray-900 dark:text-custom1">
-                    Not registered yet?{" "}
-                    <Link to={urls.signUp}>
+                    Already hava account?
+                    <Link to={urls.signIn}>
                       <span className="text-blue-600 hover:underline dark:text-blue-500 cursor-pointer">
-                        Create account
+                        Login
                       </span>
                     </Link>
                   </div>
