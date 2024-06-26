@@ -7,7 +7,6 @@ import bg2 from "../../assets/Hero/bg2.png";
 //icons
 import { GoHome } from "react-icons/go";
 import { IoIosArrowForward } from "react-icons/io";
-import { LuEye } from "react-icons/lu";
 
 function SignIn() {
   return (

@@ -48,7 +48,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row md:space-x-8">
+          <div className="flex flex-col sm:flex-row sm:space-x-28">
             {/* My Account */}
             <div className="flex flex-col gap-2">
               <h1
@@ -104,59 +104,60 @@ function Footer() {
             </div>
 
             {/* Proxy */}
-            <div className="flex flex-col gap-2">
-              <h1
-                className="font-medium text-[18px] text-white font-poppins underline"
-                style={{
-                  textDecorationColor: "#00b207",
-                  textDecorationThickness: "3px",
-                  textUnderlineOffset: "15px",
-                }}
-              >
-                Proxy
-              </h1>
-
-              <p className="text-sm text-[#999999] font-poppins mt-8">About</p>
-
-              <p className="text-sm text-[#999999] font-poppins">Shop</p>
-
-              <p className="text-sm text-[#999999] font-poppins">Product</p>
-
-              <p className="text-sm text-[#999999] font-poppins">Track Order</p>
-            </div>
-
-            {/* Download Mobile App */}
-            <div className="flex flex-col gap-2">
-              <h1
-                className="font-medium text-[18px] text-white font-poppins underline"
-                style={{
-                  textDecorationColor: "#00b207",
-                  textDecorationThickness: "3px",
-                  textUnderlineOffset: "15px",
-                }}
-              >
-                Download Mobile App
-              </h1>
-              <div className="flex flex-col gap-4">
-                <div className="md:flex md:flex-row  gap-2">
-                  <div className="w-[154px] h-[58px] rounded-md bg-[#333333] mt-8 flex items-center justify-center">
-                    <FaApple size={30} className="text-white ml-1" />
-                    <p className="text-sm text-[#B3B3B3] ml-2">
-                      Download on the{" "}
-                      <span className="text-white text-md font-medium font-poppins">
-                        App Store
-                      </span>
-                    </p>
-                  </div>
-                  {/* playstore */}
-                  <div className="w-[154px] h-[58px] rounded-md bg-[#333333] flex items-center justify-center mt-8">
-                    <FaGooglePlay size={30} className="text-white ml-1" />
-                    <p className="text-sm text-[#B3B3B3] ml-2">
-                      Download on the{" "}
-                      <span className="text-white text-md font-medium font-poppins">
-                        Play Store
-                      </span>
-                    </p>
+            <div className="sm:flex flex-row space-x-32">
+              <div className="flex flex-col gap-2">
+                <h1
+                  className="font-medium text-[18px] text-white font-poppins underline"
+                  style={{
+                    textDecorationColor: "#00b207",
+                    textDecorationThickness: "3px",
+                    textUnderlineOffset: "15px",
+                  }}
+                >
+                  Proxy
+                </h1>
+                <p className="text-sm text-[#999999] font-poppins mt-8">
+                  About
+                </p>
+                <p className="text-sm text-[#999999] font-poppins">Shop</p>
+                <p className="text-sm text-[#999999] font-poppins">Product</p>
+                <p className="text-sm text-[#999999] font-poppins">
+                  Track Order
+                </p>
+              </div>
+              {/* Download Mobile App */}
+              <div className="flex flex-col gap-2">
+                <h1
+                  className="font-medium text-[18px] text-white font-poppins underline"
+                  style={{
+                    textDecorationColor: "#00b207",
+                    textDecorationThickness: "3px",
+                    textUnderlineOffset: "15px",
+                  }}
+                >
+                  Download Mobile App
+                </h1>
+                <div className="flex flex-col gap-4">
+                  <div className="md:flex md:flex-row  gap-2">
+                    <div className="w-[154px] h-[58px] rounded-md bg-[#333333] mt-8 flex items-center justify-center">
+                      <FaApple size={30} className="text-white ml-1" />
+                      <p className="text-sm text-[#B3B3B3] ml-2">
+                        Download on the{" "}
+                        <span className="text-white text-md font-medium font-poppins">
+                          App Store
+                        </span>
+                      </p>
+                    </div>
+                    {/* playstore */}
+                    <div className="w-[154px] h-[58px] rounded-md bg-[#333333] flex items-center justify-center mt-8">
+                      <FaGooglePlay size={30} className="text-white ml-1" />
+                      <p className="text-sm text-[#B3B3B3] ml-2">
+                        Download on the{" "}
+                        <span className="text-white text-md font-medium font-poppins">
+                          Play Store
+                        </span>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
