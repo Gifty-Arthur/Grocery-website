@@ -7,6 +7,7 @@ import NavFoot from "./componenets/Layout/NavFoot";
 import { urls } from "./componenets/Helpers/routes";
 import SignIn from "./componenets/Home/SignIn";
 import SignUp from "./componenets/User/SignUp";
+import About from "./componenets/About/About";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path={urls.signIn} element={<SignIn />} />
 
             <Route path={urls.signUp} element={<SignUp />} />
+            <Route path={urls.about} element={<About />} />
           </Route>
         </Routes>
       </div>

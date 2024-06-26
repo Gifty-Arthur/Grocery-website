@@ -248,7 +248,7 @@ function SubNav() {
             <div className="relative group">
               <div className=" flex items-center gap-1">
                 <Link
-                  to="dishes"
+                  to={urls.about}
                   spy={true}
                   smooth={true}
                   duration={500}
@@ -266,7 +266,7 @@ function SubNav() {
               <ul className="absolute hidden space-y-2 group-hover:block bg-white border border-gray-300 rounded-lg p-5">
                 <li>
                   <Link
-                    to="dishes"
+                    to="/"
                     spy={true}
                     smooth={true}
                     duration={500}
