@@ -38,8 +38,8 @@ function About() {
       {/* about */}
       <div>
         <div className="container pb-6">
-          <div className="sm:flex flex-row gap-20 ">
-            <div className=" flex flex-col  gap-8 sm:mt-24">
+          <div className="sm:flex flex-row gap-16">
+            <div className=" flex flex-col  gap-8 ">
               <motion.div
                 initial={{ opacity: 0, x: -100 }} // Initial animation state (hidden and off-screen to the left)
                 animate={{ opacity: 2, x: 0 }} // Animation to show image (visible and centered)
@@ -49,20 +49,22 @@ function About() {
                 <img src={a1} alt="" className="w-full" />{" "}
                 {/* Ensure the image fills the width */}
               </motion.div>
-              <h1 className="font-semibold text-[56px] font-poppins text-custom1 sm:mt-24">
-                100% Trusted <br />
-                Organic Food Store
-              </h1>
-              <p className="text-[#66666] font-poppins ">
-                Morbi porttitor ligula in nunc varius sagittis. Proin dui nisi,
-                <br />
-                laoreet ut tempor ac, cursus vitae eros. Cras quis ultricies
-                elit.
-                <br /> Proin ac lectus arcu. Maecenas aliquet vel tellus at
-                accumsan. <br />
-                Donec a eros non massa vulputate ornare. Vivamus ornare commodo
-                ante,at commodo felis congue vitae.
-              </p>
+              <div className="sm:mt-20">
+                <h1 className="font-semibold md:text-[46px] text-3xl font-poppins text-custom1 sm:mt-14">
+                  100% Trusted <br />
+                  Organic Food Store
+                </h1>
+                <p className="text-[#66666] font-poppins sm:mt-12 mt-6 ">
+                  Morbi porttitor ligula in nunc varius sagittis. Proin dui
+                  nisi,
+                  <br />
+                  laoreet ut tempor ac, cursus vitae eros. Cras quis ultricies
+                  <br /> Proin ac lectus arcu. Maecenas aliquet vel tellus at
+                  Donec a eros non massa vulputate <br />
+                  ornare. Vivamus ornare commodo ante,at commodo felis congue
+                  vitae.
+                </p>
+              </div>
             </div>
             {/* img */}
             <div className="">
@@ -70,10 +72,9 @@ function About() {
                 initial={{ opacity: 0, x: -100 }} // Initial animation state (hidden and off-screen to the left)
                 animate={{ opacity: 2, x: 0 }} // Animation to show image (visible and centered)
                 transition={{ duration: 0.5 }} // Animation duration
-                className="mt-20 sm:flex hidden"
+                className="sm:flex hidden"
               >
-                <img src={a1} alt="" className="w-full" />{" "}
-                {/* Ensure the image fills the width */}
+                <img src={a1} alt="" className="w-full mt-10" />{" "}
               </motion.div>
             </div>
           </div>
