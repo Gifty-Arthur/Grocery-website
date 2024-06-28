@@ -79,7 +79,7 @@ function Home() {
                     <Button
                       title="Shop now"
                       Icon={IoArrowForward}
-                      className="bg-primary w-[191px] h-[51px] rounded-full mt-4 text-white"
+                      className="bg-primary w-[191px] h-[51px]  flex items-center justify-center rounded-full mt-4 text-white"
                     />
                   </Link>
                 </div>
@@ -98,7 +98,7 @@ function Home() {
                 <span className="text-secondary font-bold">30% OFF</span>
               </h2>
               <Link>
-                <button className="w-[191px] h-[51px] mt-4 rounded-full bg-primary border border-1 text-white hover:bg-tertiary">
+                <button className="w-[191px] h-[51px] mt-4 flex items-center justify-center rounded-full bg-primary border border-1 text-white hover:bg-tertiary">
                   Shop Now
                 </button>
               </Link>
@@ -130,7 +130,7 @@ function Home() {
                     <Button
                       title="Shop now"
                       Icon={IoArrowForward}
-                      className="bg-primary w-[191px] h-[51px] rounded-full mt-4 text-white"
+                      className="bg-primary w-[191px] h-[51px]   flex items-center justify-center rounded-full mt-4 text-white"
                     />
                   </Link>
                 </div>
@@ -164,7 +164,7 @@ function Home() {
                     <Button
                       title="Shop now"
                       Icon={IoArrowForward}
-                      className="bg-primary w-[191px] h-[51px] rounded-full mt-4 text-white"
+                      className="bg-primary w-[191px] h-[51px]  flex items-center justify-center rounded-full mt-4 text-white"
                     />
                   </Link>
                 </div>

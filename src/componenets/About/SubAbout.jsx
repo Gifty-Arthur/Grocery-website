@@ -8,7 +8,7 @@ import { BsBox } from "react-icons/bs";
 import { GoStar } from "react-icons/go";
 import { LuLeaf } from "react-icons/lu";
 import { HiOutlineDocumentCheck } from "react-icons/hi2";
-
+import Delivery from "./Delivery";
 export default function e() {
   return (
     <div>
@@ -19,20 +19,20 @@ export default function e() {
         >
           <div className="container">
             <div className="sm:flex sm:flex-row gap-12">
-              <img src={a7} alt="w-full" className="hidden sm:block" />
+              <img src={a7} alt="w-full" className="" />
 
               <div className="sm:mt-0 mt-20">
-                <h1 className="font-semibold md:text-[46px] text-[24px] font-poppins text-custom1 sm:mt-24">
+                <h1 className="font-semibold md:text-[46px] font-poppins text-custom1 sm:mt-18 sm:flex hidden">
                   100% Trusted <br />
                   Organic Food Store
                 </h1>
-                <p className="text-[14px] sm:text-base">
+                <p className="text-[14px] sm:text-base sm:flex hidden">
                   Pellentesque a ante vulputate leo porttitor luctus sed eget
                   eros. Nulla et rhoncus neque. Duis non diam eget est luctus
                   tincidunt a a mi. Nulla eu eros consequat tortor tincidunt
                   feugiat.
                 </p>
-                <div className="flex flex-col sm:flex-row space-y-6 sm:space-y-0 sm:space-x-6">
+                <div className="flex flex-col sm:flex-row space-y-6 sm:space-y-0 sm:space-x-6 sm:flex hidden">
                   <div className="flex flex-col">
                     <div className="flex flex-row gap-4">
                       <div className="relative w-[72px] h-[72px] mt-4">
@@ -154,6 +154,8 @@ export default function e() {
             </div>
           </div>
         </div>
+
+        <Delivery />
       </div>
     </div>
   );
