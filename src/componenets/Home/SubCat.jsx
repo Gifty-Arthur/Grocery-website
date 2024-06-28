@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { urls } from "../Helpers/routes";
 
 // Images
 
@@ -50,7 +51,7 @@ function SubCategories() {
             </p>
 
             {/* Button */}
-            <Link>
+            <Link to={urls.shop}>
               <Button title="Shop Now" Icon={IoArrowForward} />
             </Link>
           </div>

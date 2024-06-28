@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { Link } from "react-router-dom";
+import { urls } from "../Helpers/routes";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
@@ -71,7 +72,7 @@ function Home() {
                     Organic Food
                   </h1>
                   <p className="text-sm text-custom3 mt-2">{staticText.sub}</p>
-                  <Link>
+                  <Link to={urls.shop}>
                     <Button
                       title="Shop now"
                       Icon={IoArrowForward}
@@ -93,7 +94,7 @@ function Home() {
                 Sales up to{" "}
                 <span className="text-secondary font-bold">30% OFF</span>
               </h2>
-              <Link>
+              <Link to={urls.shop}>
                 <button className="w-[191px] h-[51px] mt-4 flex items-center justify-center sm:ml-0 ml-20 rounded-full bg-primary border border-1 text-white hover:bg-tertiary">
                   Shop Now
                 </button>
@@ -122,7 +123,7 @@ function Home() {
                       30% OFF
                     </span>
                   </h2>
-                  <Link>
+                  <Link to={urls.shop}>
                     <Button
                       title="Shop now"
                       Icon={IoArrowForward}
@@ -156,7 +157,7 @@ function Home() {
                     Organic Food
                   </h1>
                   <p className="text-sm text-custom3 mt-2">{staticText.sub}</p>
-                  <Link>
+                  <Link to={urls.shop}>
                     <Button
                       title="Shop now"
                       Icon={IoArrowForward}

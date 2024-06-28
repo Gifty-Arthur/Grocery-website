@@ -2,6 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useRef, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { urls } from "../Helpers/routes";
 
 //Images
 import banner1 from "../../assets/Seller/banner1.png";
@@ -87,7 +88,7 @@ function SubNumbers() {
                   $11.99
                 </div>
               </p>
-              <Link>
+              <Link to={urls.shop}>
                 <button className="md:w-[191px] md:h-[51px] h-[29px] w-[90px] md:mt-8 text-sm rounded-full mt-4 bg-primary text-white hover:text-black transition-all flex items-center justify-center">
                   Shop Now
                 </button>
@@ -137,7 +138,7 @@ function SubNumbers() {
                 </section>
               </div>
 
-              <Link>
+              <Link to={urls.shop}>
                 <button className="md:w-[191px] md:h-[51px] h-[29px] w-[90px] md:mt-8 text-sm rounded-full mt-4 bg-primary text-white hover:text-black transition-all flex items-center justify-center">
                   Shop Now
                 </button>
@@ -153,7 +154,7 @@ function SubNumbers() {
               <h1 className="md:text-5xl font-poppins font-semibold text-3xl">
                 Best Seller Products
               </h1>
-              <Link>
+              <Link to={urls.shop}>
                 <div className="flex flex-row gap-2">
                   <p className="font-medium text-primary text-md">View All</p>
                   <IoArrowForward size={20} className=" text-primary mt-1" />

@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-undef */
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { urls } from "../Helpers/routes";
 //icons
 
 import { IoMdStar, IoMdStarOutline } from "react-icons/io";
@@ -290,7 +291,7 @@ function HotDeals() {
                           Save 37% <span className="font-light">on</span>
                         </h1>
                         <h1 className="text-4xl font poppins ">Every Order</h1>
-                        <Link>
+                        <Link to={urls.shop}>
                           <Button
                             title="Shop Now"
                             Icon={IoArrowForward}
