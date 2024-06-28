@@ -19,6 +19,7 @@ import a3 from "../../assets/About/a3.png";
 import a4 from "../../assets/About/a4.png";
 import a5 from "../../assets/About/a5.png";
 import a6 from "../../assets/About/a6.png";
+import Testimonials from "../Home/Testimonials";
 
 function Delivery() {
   return (
@@ -140,6 +141,9 @@ function Delivery() {
           </div>
         </div>
       </div>
+
+      {/* testimonials */}
+      <Testimonials />
     </div>
   );
 }
