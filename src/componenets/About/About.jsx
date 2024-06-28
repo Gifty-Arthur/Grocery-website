@@ -50,7 +50,7 @@ function About() {
                 {/* Ensure the image fills the width */}
               </motion.div>
               <div className="sm:mt-20">
-                <h1 className="font-semibold md:text-[46px] text-3xl font-poppins text-custom1 sm:mt-14">
+                <h1 className="font-semibold md:text-[46px] font-poppins text-custom1 sm:mt-18">
                   100% Trusted <br />
                   Organic Food Store
                 </h1>
