@@ -29,7 +29,7 @@ export default {
         },
       },
       animation: {
-        blink: 'blink 1s infinite',
+        blink: 'blink 2s infinite',
       },
     },
     container: {
