@@ -9,6 +9,7 @@ import bgsh from "../../assets/Shop/bgsh.png";
 //icons
 import { GoHome } from "react-icons/go";
 import { IoIosArrowForward } from "react-icons/io";
+import { FaAngleDown } from "react-icons/fa6";
 
 function Shop() {
   const [timerDays, setTimerDays] = useState("00");
@@ -133,6 +134,53 @@ function Shop() {
                   Shop Now
                 </button>
               </Link>
+            </div>
+          </div>
+          {/* select */}
+          <div className="mt-10">
+            <div className="flex items-center justify-between">
+              <div className="flex flex-row gap-4">
+                <div className="w-[178px] h-[41px] border-2 flex items-center justify-center">
+                  <div className="flex flex-row  gap-4">
+                    <p className="font-poppins text-[#4D4D4D]">
+                      Select Category
+                    </p>
+                    <FaAngleDown className="mt-1" />
+                  </div>
+                </div>
+                {/* select2 */}
+                <div className="w-[178px] h-[41px] border-2 flex items-center justify-center">
+                  <div className="flex flex-row  gap-4">
+                    <p className="font-poppins text-[#4D4D4D]">Select Price</p>
+                    <FaAngleDown className="mt-1" />
+                  </div>
+                </div>
+                {/* select3 */}
+                <div className="w-[178px] h-[41px] border-2 flex items-center justify-center">
+                  <div className="flex flex-row  gap-4">
+                    <p className="font-poppins text-[#4D4D4D]">Select Rating</p>
+                    <FaAngleDown className="mt-1" />
+                  </div>
+                </div>
+              </div>
+              {/* other */}
+              <div className="flex flex-row gap-4">
+                <div className="w-[178px] h-[41px] border-2 flex items-center justify-center">
+                  <div className="flex flex-row  gap-4">
+                    <p className="font-poppins text-[#4D4D4D]">
+                      Sort by:Latest
+                    </p>
+                    <FaAngleDown className="mt-1" />
+                  </div>
+                </div>
+                {/* other 2 */}
+                <div className="w-[178px] h-[41px] border-2 flex items-center justify-center">
+                  <div className="flex flex-row  gap-4">
+                    <p className="font-poppins text-[#4D4D4D]">Show: 16</p>
+                    <FaAngleDown className="mt-1" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
