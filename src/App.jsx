@@ -8,6 +8,7 @@ import { urls } from "./componenets/Helpers/routes";
 import SignIn from "./componenets/Home/SignIn";
 import SignUp from "./componenets/User/SignUp";
 import About from "./componenets/About/About";
+import Shop from "./componenets/Shop/Shop";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
 
             <Route path={urls.signUp} element={<SignUp />} />
             <Route path={urls.about} element={<About />} />
+            <Route path={urls.shop} element={<Shop />} />
           </Route>
         </Routes>
       </div>

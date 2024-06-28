@@ -3,8 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/pagination";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import Button from "../Layout/Button";
 
 // images
@@ -44,11 +43,8 @@ function Home() {
               delay: 2500,
               disableOnInteraction: false,
             }}
-            pagination={{
-              clickable: true,
-            }}
             loop={true}
-            modules={[Autoplay, Pagination]}
+            modules={[Autoplay]}
             className="mySwiper"
           >
             {/* img1 */}
@@ -98,7 +94,7 @@ function Home() {
                 <span className="text-secondary font-bold">30% OFF</span>
               </h2>
               <Link>
-                <button className="w-[191px] h-[51px] mt-4 flex items-center justify-center rounded-full bg-primary border border-1 text-white hover:bg-tertiary">
+                <button className="w-[191px] h-[51px] mt-4 flex items-center justify-center sm:ml-0 ml-20 rounded-full bg-primary border border-1 text-white hover:bg-tertiary">
                   Shop Now
                 </button>
               </Link>

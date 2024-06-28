@@ -31,9 +31,9 @@ function Testimonials() {
             <div className="">
               <div className="md:flex md:flex-row gap-6   flex flex-col -mt-10 ">
                 <div className="bg-gray-100 w-full md:w-[424px] h-[254px] rounded-lg shadow-md">
-                  <div className="ml-6 p-6">
+                  <div className="ml-6 p-6 md:p-0">
                     <RiDoubleQuotesR size={30} className="text-tertiary" />
-                    <p className="text-sm mt-4 text-[#4D4D4D] font-poppins">
+                    <p className="text-sm mt-4  text-[#4D4D4D] font-poppins">
                       Pellentesque eu nibh eget mauris congue mattis mattis nec
                       tellus. Phasellus imperdiet elit eu magna dictum, bibendum
                       cursus velit sodales. Donec sed neque eget
@@ -60,7 +60,7 @@ function Testimonials() {
                 </div>
                 {/* second */}
                 <div className="bg-gray-100 w-full md:w-[424px] h-[254px] rounded-lg shadow-md">
-                  <div className="ml-6 p-6">
+                  <div className="ml-6 p-6 md:p-0">
                     <RiDoubleQuotesR size={30} className="text-tertiary" />
                     <p className="text-sm mt-4 text-[#4D4D4D] font-poppins">
                       Pellentesque eu nibh eget mauris congue mattis mattis nec
@@ -89,7 +89,7 @@ function Testimonials() {
                 </div>
 
                 <div className="bg-gray-100  w-full md:w-[424px] h-[254px] rounded-lg shadow-md">
-                  <div className="ml-6 p-6">
+                  <div className="ml-6 p-6 md:p-0">
                     <RiDoubleQuotesR size={30} className="text-tertiary" />
                     <p className="text-sm mt-4 text-[#4D4D4D] font-poppins">
                       Pellentesque eu nibh eget mauris congue mattis mattis nec

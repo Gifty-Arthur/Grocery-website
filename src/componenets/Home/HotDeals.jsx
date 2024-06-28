@@ -48,7 +48,7 @@ function HotDeals() {
               <div className="flex flex-col md:gap-2 md:ml-0 ml-4 sm:ml-0 lg:ml-0 md:mt-0 gap-8">
                 {/* Hot deals */}
                 <motion.div
-                  className="md:w-[312px] h-[116px] w-[330px] md:mt-0 mt-2 border-2"
+                  className="md:w-[312px] h-[116px] w-full md:mt-0 mt-2 border-2"
                   whileHover={{
                     scale: 1.1,
                     textShadow: "primary",
@@ -72,7 +72,7 @@ function HotDeals() {
                 </motion.div>
                 {/* orange */}
                 <motion.div
-                  className="md:w-[312px] h-[116px]  w-[330px]   border-2"
+                  className="md:w-[312px] h-[116px]  w-full  border-2"
                   whileHover={{
                     scale: 1.1,
                     textShadow: "primary",
@@ -99,7 +99,7 @@ function HotDeals() {
                 </motion.div>
                 {/* lettuce */}
                 <motion.div
-                  className="md:w-[312px] h-[116px]  w-[330px]  border-2"
+                  className="md:w-[312px] h-[116px]  w-full  border-2"
                   whileHover={{
                     scale: 1.1,
                     textShadow: "primary",
@@ -129,7 +129,7 @@ function HotDeals() {
                 </h1>
                 <div className="flex flex-col md:gap-2 md:ml-0 ml-4 sm:ml-0 lg:ml-0 md:mt-0 gap-8 ">
                   <motion.div
-                    className="md:w-[312px] h-[116px] w-[330px]  md:mt-0 mt-2 border-2"
+                    className="md:w-[312px] h-[116px] w-full  md:mt-0 mt-2 border-2"
                     whileHover={{
                       scale: 1.1,
                       textShadow: "primary",
@@ -153,7 +153,7 @@ function HotDeals() {
                   </motion.div>
                   {/* okro */}
                   <motion.div
-                    className="md:w-[312px] h-[116px] w-[330px]  border-2"
+                    className="md:w-[312px] h-[116px] w-full  border-2"
                     whileHover={{
                       scale: 1.1,
                       textShadow: "primary",
@@ -177,7 +177,7 @@ function HotDeals() {
                   </motion.div>
                   {/* tomatoes */}
                   <motion.div
-                    className="md:w-[312px] h-[116px] w-[330px]  border-2"
+                    className="md:w-[312px] h-[116px] w-full  border-2"
                     whileHover={{
                       scale: 1.1,
                       textShadow: "primary",
@@ -207,7 +207,7 @@ function HotDeals() {
                   </h1>
                   <div className="flex flex-col md:gap-2 md:ml-0 ml-4 sm:ml-0 lg:ml-0 md:mt-0 gap-8 ">
                     <motion.div
-                      className="md:w-[312px] h-[116px] w-[330px]  border-2 md:mt-0 mt-2"
+                      className="md:w-[312px] h-[116px] w-full  border-2 md:mt-0 mt-2"
                       whileHover={{
                         scale: 1.1,
                         textShadow: "primary",
@@ -231,7 +231,7 @@ function HotDeals() {
                     </motion.div>
                     {/* corn */}
                     <motion.div
-                      className="md:w-[312px] h-[116px] w-[330px]  border-2"
+                      className="md:w-[312px] h-[116px] w-full  border-2"
                       whileHover={{
                         scale: 1.1,
                         textShadow: "primary",
@@ -255,7 +255,7 @@ function HotDeals() {
                     </motion.div>
                     {/* fresh */}
                     <motion.div
-                      className="md:w-[312px] h-[116px] w-[330px]  border-2"
+                      className="md:w-[312px] h-[116px] w-full border-2"
                       whileHover={{
                         scale: 1.1,
                         textShadow: "primary",

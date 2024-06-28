@@ -38,7 +38,7 @@ function About() {
       {/* about */}
       <div>
         <div className="container pb-6">
-          <div className="sm:flex flex-row gap-16">
+          <div className="md:flex flex-row gap-16">
             <div className=" flex flex-col  gap-8 ">
               <motion.div
                 initial={{ opacity: 0, x: -100 }} // Initial animation state (hidden and off-screen to the left)

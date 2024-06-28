@@ -145,7 +145,7 @@ function SubNav() {
             <div className="relative group">
               <div className=" flex items-center gap-1">
                 <Link
-                  to="dishes"
+                  to={urls.shop}
                   spy={true}
                   smooth={true}
                   duration={500}
@@ -265,26 +265,26 @@ function SubNav() {
 
               <ul className="absolute hidden space-y-2 group-hover:block bg-white border border-gray-300 rounded-lg p-5">
                 <li>
-                  <Link
-                    to="/"
+                  <ScrollLink
+                    to="Our Team"
                     spy={true}
                     smooth={true}
                     duration={500}
                     className="text-gray-800 hover:text-primary transition-all cursor-pointer"
                   >
-                    OurTeam
-                  </Link>
+                    Our Team
+                  </ScrollLink>
                 </li>
                 <li>
-                  <Link
-                    to="dishes"
+                  <ScrollLink
+                    to="Organic Food"
                     spy={true}
                     smooth={true}
                     duration={500}
                     className="text-gray-800 hover:text-primary transition-all cursor-pointer"
                   >
-                    OrganicFood
-                  </Link>
+                    Organic Food
+                  </ScrollLink>
                 </li>
               </ul>
             </div>
@@ -351,7 +351,7 @@ function SubNav() {
             Blog
           </Link>
           <Link
-            to="dishes"
+            to={urls.about}
             spy={true}
             smooth={true}
             duration={500}

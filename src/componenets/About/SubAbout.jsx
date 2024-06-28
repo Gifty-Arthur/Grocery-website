@@ -9,17 +9,18 @@ import { GoStar } from "react-icons/go";
 import { LuLeaf } from "react-icons/lu";
 import { HiOutlineDocumentCheck } from "react-icons/hi2";
 import Delivery from "./Delivery";
+
 export default function e() {
   return (
     <div>
-      <div>
+      <section id="Organic Food">
         <div
           className="sm:w-full sm:h-[685px] h-[400px] bg-cover mt-10 w-full"
           style={{ backgroundImage: `url(${bga})` }}
         >
           <div className="container">
             <div className="sm:flex sm:flex-row gap-12">
-              <img src={a7} alt="w-full" className="" />
+              <img src={a7} alt="" className="" />
 
               <div className="sm:mt-0 mt-20">
                 <h1 className="font-semibold md:text-[46px] font-poppins text-custom1 sm:mt-18 sm:flex hidden">
@@ -32,7 +33,7 @@ export default function e() {
                   tincidunt a a mi. Nulla eu eros consequat tortor tincidunt
                   feugiat.
                 </p>
-                <div className="flex flex-col sm:flex-row space-y-6 sm:space-y-0 sm:space-x-6 sm:flex hidden">
+                <div className="flex-col sm:flex-row space-y-6 sm:space-y-0 sm:space-x-6 sm:flex hidden">
                   <div className="flex flex-col">
                     <div className="flex flex-row gap-4">
                       <div className="relative w-[72px] h-[72px] mt-4">
@@ -154,9 +155,8 @@ export default function e() {
             </div>
           </div>
         </div>
-
-        <Delivery />
-      </div>
+      </section>
+      <Delivery />
     </div>
   );
 }
