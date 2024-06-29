@@ -207,39 +207,16 @@ function SubNav() {
 
               <ul className="absolute hidden space-y-2 group-hover:block bg-white border border-gray-300 rounded-lg p-5">
                 <li>
-                  <Link
-                    to="dishes"
+                  <ScrollLink
+                    to="recent"
                     spy={true}
                     smooth={true}
                     duration={500}
                     className="text-gray-800 hover:text-primary transition-all cursor-pointer"
                   >
-                    Fresh Fruit
-                  </Link>
+                    Recently
+                  </ScrollLink>
                 </li>
-                <li>
-                  <Link
-                    to="dishes"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    className="text-gray-800 hover:text-primary transition-all cursor-pointer"
-                  >
-                    Comments
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="dishes"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                    className="text-gray-800 hover:text-primary transition-all cursor-pointer"
-                  >
-                    New Items
-                  </Link>
-                </li>
-                <li></li>
               </ul>
             </div>
 
@@ -342,7 +319,7 @@ function SubNav() {
             Shop
           </Link>
           <Link
-            to={urls.shop}
+            to={urls.blog}
             spy={true}
             smooth={true}
             duration={500}
@@ -361,7 +338,7 @@ function SubNav() {
           </Link>
 
           <Link
-            to="dishes"
+            to="/"
             spy={true}
             smooth={true}
             duration={500}

@@ -242,60 +242,62 @@ function Blog() {
                   </div>
                 </div>
                 {/* Recently Added */}
-                <div className="mt-6">
-                  <h1 className="text-custom1 font-poppins font-medium text-[20px]">
-                    Recently Added
-                  </h1>
-                  <div className="flex flex-col mt-4">
-                    <div className="flex flex-row gap-2">
-                      <img src={r1} alt="" />
-                      <div className="flex flex-col mt-2">
-                        <p className="text-custom1 font-poppins font-medium text-[16px]">
-                          Curabitur porttitor orci eget nequ
-                          <br /> accumsan.
-                        </p>
-                        <div className="flex flex-row gap-2">
-                          <SlCalender className="text-primary mt-1" />
-                          <p className="font-poppins text-[#666666] text-sm">
-                            Apr 25, 2024
+                <section id="recent">
+                  <div className="mt-6">
+                    <h1 className="text-custom1 font-poppins font-medium text-[20px]">
+                      Recently Added
+                    </h1>
+                    <div className="flex flex-col mt-4">
+                      <div className="flex flex-row gap-2">
+                        <img src={r1} alt="" />
+                        <div className="flex flex-col mt-2">
+                          <p className="text-custom1 font-poppins font-medium text-[16px]">
+                            Curabitur porttitor orci eget nequ
+                            <br /> accumsan.
                           </p>
+                          <div className="flex flex-row gap-2">
+                            <SlCalender className="text-primary mt-1" />
+                            <p className="font-poppins text-[#666666] text-sm">
+                              Apr 25, 2024
+                            </p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    {/* 2nd */}
-                    <div className="flex flex-row gap-2 mt-2">
-                      <img src={r2} alt="" />
-                      <div className="flex flex-col mt-2">
-                        <p className="text-custom1 font-poppins font-medium text-[16px]">
-                          Donec mattis arcu faucibus suscipit
-                          <br /> viverra.
-                        </p>
-                        <div className="flex flex-row gap-2">
-                          <SlCalender className="text-primary mt-1" />
-                          <p className="font-poppins text-[#666666] text-sm">
-                            Apr 25, 2024
+                      {/* 2nd */}
+                      <div className="flex flex-row gap-2 mt-2">
+                        <img src={r2} alt="" />
+                        <div className="flex flex-col mt-2">
+                          <p className="text-custom1 font-poppins font-medium text-[16px]">
+                            Donec mattis arcu faucibus suscipit
+                            <br /> viverra.
                           </p>
+                          <div className="flex flex-row gap-2">
+                            <SlCalender className="text-primary mt-1" />
+                            <p className="font-poppins text-[#666666] text-sm">
+                              Apr 25, 2024
+                            </p>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    {/* 3rd image */}
-                    <div className="flex flex-row gap-2 mt-2">
-                      <img src={r3} alt="" />
-                      <div className="flex flex-col mt-2">
-                        <p className="text-custom1 font-poppins font-medium text-[16px]">
-                          Quisque posuere tempus rutrum. <br />
-                          Integer velit ex.
-                        </p>
-                        <div className="flex flex-row gap-2">
-                          <SlCalender className="text-primary mt-1" />
-                          <p className="font-poppins text-[#666666] text-sm">
-                            Apr 25, 2024
+                      {/* 3rd image */}
+                      <div className="flex flex-row gap-2 mt-2">
+                        <img src={r3} alt="" />
+                        <div className="flex flex-col mt-2">
+                          <p className="text-custom1 font-poppins font-medium text-[16px]">
+                            Quisque posuere tempus rutrum. <br />
+                            Integer velit ex.
                           </p>
+                          <div className="flex flex-row gap-2">
+                            <SlCalender className="text-primary mt-1" />
+                            <p className="font-poppins text-[#666666] text-sm">
+                              Apr 25, 2024
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </section>
               </div>
 
               {/* Sort */}
