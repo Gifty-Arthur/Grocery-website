@@ -27,7 +27,7 @@ function SubNav() {
               <div className=" flex items-center gap-1 bg-primary w-[218px] h-[56px] justify-center">
                 <FaBars size={24} className="text-white" />
                 <Link
-                  to="dishes"
+                  to="/"
                   spy={true}
                   smooth={true}
                   duration={500}
@@ -190,7 +190,7 @@ function SubNav() {
             <div className="relative group">
               <div className=" flex items-center gap-1">
                 <Link
-                  to="dishes"
+                  to={urls.blog}
                   spy={true}
                   smooth={true}
                   duration={500}

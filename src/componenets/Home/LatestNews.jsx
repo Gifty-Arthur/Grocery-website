@@ -18,7 +18,7 @@ function LatestNews() {
             <p className="text-primary text-lg mt-2">Blog</p>
             <h1 className="text-4xl font-semibold font-poppins">Latest News</h1>
           </div>
-          <div className="md:mt-10s sm:mt-20 lg:mt-20 mt-10">
+          <div className="md:mt-10 sm:mt-20 lg:mt-20 mt-10">
             <div className="flex flex-col md:flex-row md:flex-wrap gap-6 justify-center">
               <div className="w-full md:w-[424px] h-[494px] rounded-md bg-gray-100 ">
                 <div className="relative w-full">

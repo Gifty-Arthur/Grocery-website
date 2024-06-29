@@ -4,6 +4,7 @@ export const urls = {
     signUp: "/signUp",
     about: "/about",
     shop: "/shop",
+    blog: "/blog"
 
 
 
