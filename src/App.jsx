@@ -10,6 +10,7 @@ import SignUp from "./componenets/User/SignUp";
 import About from "./componenets/About/About";
 import Shop from "./componenets/Shop/Shop";
 import Blog from "./componenets/Blog/Blog";
+import Contacts from "./componenets/Contact/Contacts";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path={urls.about} element={<About />} />
             <Route path={urls.shop} element={<Shop />} />
             <Route path={urls.blog} element={<Blog />} />
+            <Route path={urls.contacts} element={<Contacts />} />
           </Route>
         </Routes>
       </div>
