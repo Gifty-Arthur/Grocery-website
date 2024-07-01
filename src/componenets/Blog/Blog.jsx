@@ -38,7 +38,7 @@ function Blog() {
                   <IoIosArrowForward className="mt-1" />
                 </div>
               </Link>
-              <Link to={urls.about}>
+              <Link to={urls.blog}>
                 <div className="flex flex-row gap-2 hover:text-primary ">
                   <p className="text-md">Blog</p>
                 </div>

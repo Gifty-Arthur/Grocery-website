@@ -11,6 +11,7 @@ import About from "./componenets/About/About";
 import Shop from "./componenets/Shop/Shop";
 import Blog from "./componenets/Blog/Blog";
 import Contacts from "./componenets/Contact/Contacts";
+import CartBag from "./componenets/Cart/CartBag";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path={urls.shop} element={<Shop />} />
             <Route path={urls.blog} element={<Blog />} />
             <Route path={urls.contacts} element={<Contacts />} />
+            <Route path={urls.cartbag} element={<CartBag />} />
           </Route>
         </Routes>
       </div>

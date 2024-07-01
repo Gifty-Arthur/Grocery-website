@@ -5,7 +5,8 @@ export const urls = {
     about: "/about",
     shop: "/shop",
     blog: "/blog",
-    contacts: "/contacts"
+    contacts: "/contacts",
+    cartbag: "/cartbag",
     
     
 

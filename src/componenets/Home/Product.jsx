@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 import p1 from "../../assets/Product/p1.png";
 import p2 from "../../assets/Product/p2.png";
 import fp2 from "../../assets/Product/fp2.png";
@@ -139,9 +140,9 @@ const Product = () => {
                             <IoMdStarOutline className="text-[#cccccc]" />
                           </div>
                         </div>
-                        <div className="rounded-full bg-custom4 w-[40px] h-[40px] mr-6 flex items-center justify-center">
+                        <button className="rounded-full bg-custom4 w-[40px] h-[40px] mr-6 flex items-center justify-center hover:bg-primary">
                           <HiOutlineShoppingBag size={20} />
-                        </div>
+                        </button>
                       </div>
                     </motion.div>
                     <motion.div

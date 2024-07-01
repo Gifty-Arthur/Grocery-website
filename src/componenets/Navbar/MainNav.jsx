@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { urls } from "../Helpers/routes";
 
 //img
 import Group from "../../assets/Hero/Group.png";
@@ -68,12 +69,17 @@ function MainNav() {
               <IoIosHeartEmpty size={27} className="" />
               {/* Handbag */}
               <div className="flex flex-wrap gap-2">
-                <div className="relative">
-                  <SlHandbag size={27} className="text-2xl" />
-                  <div className="absolute top-0 right-0 bg-custom rounded-full h-[18px] w-[18px] flex items-center justify-center">
-                    <p className="text-white text-xs">2</p>
+                <Link to={urls.cartbag}>
+                  <div className="relative">
+                    <SlHandbag
+                      size={27}
+                      className="text-2xl hover:text-primary "
+                    />
+                    <div className="absolute top-0 right-0 bg-custom rounded-full h-[18px] w-[18px] flex items-center justify-center">
+                      <p className="text-white text-xs">2</p>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
               <div className="flex flex-col mt-1">
                 <p className="text-[#4D4D4D] text-sm"> Shopping cart:</p>
