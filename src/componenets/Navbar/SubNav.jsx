@@ -338,7 +338,7 @@ function SubNav() {
           </Link>
 
           <Link
-            to={urls.contact}
+            to={urls.contacts}
             spy={true}
             smooth={true}
             duration={500}
