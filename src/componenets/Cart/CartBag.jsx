@@ -39,22 +39,60 @@ function CartBag() {
           </div>
           <div className="w-[872px] h-[371px] rounded-md shadow-md  border">
             <div className="flex flex-col">
-              <div className="flex flex-row space-x-72">
-                <p>Product</p>
-                <p>Product</p>
+              <div className="flex flex-row space-x-48 mt-4">
+                <p>PRODUCT</p>
+                <p>PRICE</p>
+                <p>QUANTITY</p>
+                <p>SUBTOTAL</p>
               </div>
               <div className="w-[872px] h-[1px] bg-gray-300 mt-6"></div>
               <div className="flex flex-col">
-                <div className="flex flex-row">
-                  <img src={cb1} alt="" className="w-[100px] mt-2" />
-                  <p className="mt-12"> Green Capsicum</p>
-                </div>
-                {/* 2nd image */}
-                <div className="flex flex-col">
-                  <div className="w-[872px] h-[1px] bg-gray-300 mt-6"></div>
+                <div className="flex flex-row space-x-12">
                   <div className="flex flex-row">
                     <img src={cb1} alt="" className="w-[100px] mt-2" />
                     <p className="mt-12"> Green Capsicum</p>
+                  </div>
+                  <div className="flex flex-row  space-x-40">
+                    <p className="mt-12">$14.00</p>
+                    <div className="flex flex-row space-x-44">
+                      <div className="w-[124px] h-[50px] rounded-full border flex items-center justify-center mt-10">
+                        <div className="flex flex-row  gap-3">
+                          <div className="w-[34px] h-[34px] rounded-full bg-[#F2F2F2] flex items-center justify-center">
+                            <p>-</p>
+                          </div>
+                          5
+                          <div className="w-[34px] h-[34px] rounded-full bg-[#F2F2F2] flex itemz-center justify-center">
+                            +
+                          </div>
+                        </div>
+                      </div>
+                      <p className="mt-12"> $15.000</p>
+                    </div>
+                  </div>
+                </div>
+                {/* 2nd image */}
+                <div className="w-[872px] h-[1px] bg-gray-300 mt-6"></div>
+                <div className="flex flex-row space-x-12">
+                  <div className="flex flex-row">
+                    <img src={cb1} alt="" className="w-[100px] mt-2" />
+                    <p className="mt-12"> Green Capsicum</p>
+                  </div>
+                  <div className="flex flex-row  space-x-40">
+                    <p className="mt-12">$14.00</p>
+                    <div className="flex flex-row space-x-44">
+                      <div className="w-[124px] h-[50px] rounded-full border flex items-center justify-center mt-10">
+                        <div className="flex flex-row  gap-3">
+                          <div className="w-[34px] h-[34px] rounded-full bg-[#F2F2F2] flex items-center justify-center">
+                            <p>-</p>
+                          </div>
+                          5
+                          <div className="w-[34px] h-[34px] rounded-full bg-[#F2F2F2] flex itemz-center justify-center">
+                            +
+                          </div>
+                        </div>
+                      </div>
+                      <p className="mt-12"> $15.000</p>
+                    </div>
                   </div>
                 </div>
               </div>
